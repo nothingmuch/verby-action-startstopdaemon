@@ -1,8 +1,0 @@
-Build.PL
-Changes
-MANIFEST
-META.yml # Will be created by "make dist"
-Makefile.PL
-README
-lib/Verby/Action/StartStopDaemon.pm
-t/00.load.t
