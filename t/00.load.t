@@ -1,7 +1,6 @@
-use Test::More tests => 1;
+use Test::More tests => 2;
 
 BEGIN {
-use_ok( 'Verby::Action::StartStopDaemon' );
+    use_ok('Verby::Action::StartDaemon');
+    use_ok('Verby::Action::StopDaemon');
 }
-
-diag( "Testing Verby::Action::StartStopDaemon $Verby::Action::StartStopDaemon::VERSION" );

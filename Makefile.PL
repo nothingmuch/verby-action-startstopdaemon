@@ -3,7 +3,8 @@ use inc::Module::Install;
 
 # Define metadata
 name 'Verby-Action-StartStopDaemon';
-all_from 'lib/Verby/Action/StartStopDaemon.pm';
+version '0.01';
+license 'perl';
 
 # Specific dependencies
 # requires 'Moose' => '0.25';
